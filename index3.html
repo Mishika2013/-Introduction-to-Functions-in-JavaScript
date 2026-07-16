@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Calculator</p>
+    <button onclick="addition(4,5)">Add</button>
+    <button onclick="subtraction(4,5)">Subtract</button>
+    <p id="add"></p>
+    <p id="subtract"></p>
+    <script>
+        function addition(x,y){
+            document.getElementById("add").innerHTML= x+y;
+
+        }
+        function subtraction(x,y){
+            document.getElementById("subtract").innerHTML= x-y;
+        }
+    </script>
+</body>
+</html>
